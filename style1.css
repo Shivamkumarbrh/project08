@@ -22,15 +22,13 @@ html{box-sizing:border-box};
     height: 5%;
     z-index: 2;
     background-color: white;
-    /* overflow: auto; */
-    /* height: auto; */
   }
   #l-btn{
-    /* display: block; */
     margin: 10px 25px 10px 5px;
     padding: 0px 15px;
     background-color: white;
     border: none;
+    cursor: pointer;
     font-size: 20px;
   }
   .l-content{
@@ -158,4 +156,8 @@ html{box-sizing:border-box};
     border: none;
     margin: 10px 0px;
     padding: 15px 16px;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: #aaa;
 }

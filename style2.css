@@ -30,7 +30,11 @@
 }
 .r-fourth #btn5,#btn6{
     padding: 15px 16px;
+    cursor: pointer;
     border: none;
+    background-color: white;
+}
+#btn5:hover,#btn6:hover{
     background-color:#aaa;
 }
 .r-fourth #btn55,#btn66{
